@@ -40,3 +40,5 @@ Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multip
 	- Modify the code `Exec=/home/USER_NAME/.config/conky/start_conky.sh` in the file with replacing `USER_NAME`
     
 7.  Relogin to your gnome session
+
+### Feel Free to drop any issues and modifications required
