@@ -4,7 +4,7 @@
 
 Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multiple sources.
 
-![Screenshot](/Screenshot.png)
+![Screenshot From 2025-05-01 19-38-25.png](:/f743e38b79454e689ee8effaf9755557)
 
 ## Componets and sources
 
@@ -34,8 +34,9 @@ Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multip
     
     - More infomation can be found in [Malformed Blog](https://malformed-blog.blogspot.com/2025/02/how-to-apply-theme.html)
 5.  Place `start_conky.sh` in `/home/USER_NAME/.config/conky` directory
-    
+    - Modify `/home/USER_NAME/.config/conky/Simple-Conky-theme/start.sh &` replacing `USER_NAME`
     - Right click `start_conky.sh` and go to properties. Then enable *Executable as a program*
 6.  Place `start_conky_desk.desktop` file in `/home/USER_NAME/.config/autostart`
+	- Modify the code `Exec=/home/USER_NAME/.config/conky/start_conky.sh` in the file with replacing `USER_NAME`
     
 7.  Relogin to your gnome session
