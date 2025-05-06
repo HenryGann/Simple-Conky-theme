@@ -14,8 +14,8 @@ sed -i "s|/home/USER_NAME/|/home/${USER}/|" start_conky_desk.desktop
 sed -i "s|/home/USER_NAME/|/home/${USER}/|" start_conky.sh
 
 # Moves files to where they belong
-mkdir -p $HOME/.config/conky && mv Simple-Conky-theme $HOME/.config/conky && mv start_conky.sh $HOME/.config/conky
-mkdir -p $HOME/.config/autostart && mv start_conky_desk.desktop $HOME/.config/autostart
+mkdir -p $HOME/.config/conky && cp -r Simple-Conky-theme $HOME/.config/conky && cp start_conky.sh $HOME/.config/conky
+mkdir -p $HOME/.config/autostart && cp start_conky_desk.desktop $HOME/.config/autostart
 
 
 echo "Don't forget to install the fonts which will be found at Simple-Conky-theme/fonts in /home/$USER/.config/conky"

@@ -1,9 +1,3 @@
 #!/bin/bash
-
-# Start Conky
-conky &
-
-sleep 2
-
-/home/USER_NAME/.config/conky/Simple-Conky-theme/start.sh &
-
+conky -c $HOME/.config/conky/Simple-Conky-theme/Simple-Conky-theme.conf &> /dev/null &
+exit
