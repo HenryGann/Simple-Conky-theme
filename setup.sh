@@ -5,7 +5,7 @@ echo What is your open-weather API key?
 read API_KEY
 sed -i -E "s/^api_key=.*/api_key=${API_KEY}/" "$(pwd)/Simple-Conky-theme/scripts/weather-v2.0.sh"
 
-echo What is your city code e.g. New York City, US? Found at https://openweathermap.org/find 
+echo What is your city code e.g. '2643743' for London? Found at https://openweathermap.org/find 
 read CITY
 sed -i -E "s/^city_id=.*/city_id=${CITY}/" "$(pwd)/Simple-Conky-theme/scripts/weather-v2.0.sh"
 

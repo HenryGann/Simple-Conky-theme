@@ -2,11 +2,11 @@
 
 ## About
 
-Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multiple sources.
+Simple-Conky theme is created for fedora 42 Gnome based systems utilizing multiple sources. As this was designed for my laptop, I don't provide any GPU information or support, that is up to you.
 
 ![Conky Screenshot with Fedora 41](/ConkyExample.png)
 
-## Componets and sources
+## Components and sources
 
 - Base theme
     
@@ -45,7 +45,7 @@ Ensure that the setup.sh script in the project root has execute permissions. Eit
     
 3.  Install the Fonts in the `Simple-Conky-theme/fonts` directory
     
-4.  Edit `Simple-Conky-theme/fonts` with your `city_id=` and `api_key=`.
+4.  Edit `Simple-Conky-theme/scripts/weather-v2.0.sh` with your `city_id=` and `api_key=`.
     
     - More infomation can be found in [Malformed Blog](https://malformed-blog.blogspot.com/2025/02/how-to-apply-theme.html)
 5.  Place `start_conky.sh` in `/home/USER_NAME/.config/conky` directory
